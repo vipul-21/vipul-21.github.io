@@ -18,7 +18,6 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.min.css" />
 	<link rel="stylesheet" href="css/template-colors/green.css" />
-  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
 	<!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -77,37 +76,38 @@
 					<ul>
 						<li class="active">
 							<a href="#about-card">
-								<span class="icon ion-logo-person"></span>
+								<ion-icon name="person" size="small" style="padding: 5px 0px 5px;"></ion-icon>
+								<!-- <span class="icon ion-logo-person"></span> -->
 								<span class="link">About</span>
 							</a>
 						</li>
 						<li>
 							<a href="#resume-card">
-								<span class="icon ion-android-list"></span>
-								<span class="link">Resume</span>
+								<ion-icon name="briefcase" size="small" style="padding: 5px 0px 5px;"></ion-icon>
+								<span class="link">Experience</span>
 							</a>
 						</li>
 						<li>
 							<a href="#works-card">
-								<span class="icon ion-paintbrush"></span>
+								<ion-icon name="code" size="small" style="padding: 5px 0px 5px;"></ion-icon>
 								<span class="link">Projects</span>
 							</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="#blog-card">
 								<span class="icon ion-chatbox-working"></span>
 								<span class="link">Blog</span>
 							</a>
-						</li>
+						</li> -->
             <li>
               <a href="#contacts-card">
-                <span class="icon ion-at"></span>
+								<ion-icon name="call" size="small" style="padding: 5px 0px 5px;"></ion-icon>
                 <span class="link">Contact</span>
               </a>
             </li>
 						<li>
-							<a href="#contacts-card">
-								<span class="icon ion-at"></span>
+							<a href="#random-card">
+								<ion-icon name="bulb" size="small" style="padding: 5px 0px 5px;"></ion-icon>
 								<span class="link">Random</span>
 							</a>
 						</li>
@@ -144,16 +144,23 @@
 						<a target="_blank" href="https://github.com/vipul-21"><span class="fab fa-github"></span></a>
 						<a target="_blank" href="https://stackoverflow.com/users/5770343/vipul-singh"><span class="fab fa-stack-overflow"></span></a>
 					</div>
+					<br/>
+					<br/>
+					<div class="revs-item hide-mobile">
+						<div class="text">
+							Sometimes it’s the people no one imagines anything of who do the things that no one can imagine.<br/>
+						</div>
+					</div>
 
 					<!-- profile buttons -->
 					<div class="lnks">
 						<a href="#" class="lnk">
-							<span class="text">Download Resume</span>
-							<span class="ion ion-archive"></span>
+							<span class="text" style="font-size: 14px;">Download Resume</span>
+							<ion-icon name="arrow-down" size="small" style="padding: 0px 5px;"></ion-icon>
 						</a>
 						<a href="#" class="lnk discover">
-							<span class="text">Contact Me</span>
-							<span class="arrow"></span>
+							<span class="text" style="font-size: 14px;">Contact Me</span>
+							<ion-icon name="call" size="small" style="padding: 0px 5px;"></ion-icon>
 						</a>
 					</div>
 
@@ -199,12 +206,14 @@
 						<div class="title">Education</div>
 
 						<!-- content -->
-						<div class="row service-items border-line-v">
+						<div class="row border-line-v">
 
               <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
                 <div class="resume-title border-line-h">
-                  <div class="icon"><i class="ion ion-university"></i></div>
-                  <div class="name">Education</div>
+                  <div class="icon">
+										<ion-icon name="book" size="large" style="padding: 5px 0px 5px;"></ion-icon>
+									</div>
+                  <div class="name">Degree</div>
                 </div>
                 <div class="resume-items">
                   <div class="resume-item border-line-h active">
@@ -227,7 +236,7 @@
               </div>
 
 							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+							<!-- <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="service-item">
 									<div class="icon"><span class="ion ion-code"></span></div>
 									<div class="name">Web Development</div>
@@ -236,10 +245,10 @@
 										reach all of your marketing.
 									</p>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+							<!-- <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="service-item">
 									<div class="icon"><span class="ion ion-music-note"></span></div>
 									<div class="name">Music Writing</div>
@@ -247,10 +256,10 @@
 										Music copying, transcription, arranging and composition services.
 									</p>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12">
+							<!-- <div class="col col-d-6 col-t-6 col-m-12">
 								<div class="service-item">
 									<div class="icon"><span class="ion ion-speakerphone"></span></div>
 									<div class="name">Advetising</div>
@@ -258,10 +267,10 @@
 										Advertising services include television, radio, print, mail and web.
 									</p>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12">
+							<!-- <div class="col col-d-6 col-t-6 col-m-12">
 								<div class="service-item">
 									<div class="icon"><span class="ion ion-ios-game-controller-b"></span></div>
 									<div class="name">Game Development</div>
@@ -269,60 +278,14 @@
 										Developing memorable and unique mobile android, ios games.
 									</p>
 								</div>
-							</div>
+							</div> -->
 
 							<div class="clear"></div>
 						</div>
 
 					</div>
 
-					<!--
-						Fun Fact
-					-->
-					<div class="content fuct">
 
-						<!-- title -->
-						<div class="title">Fun Fact</div>
-
-						<!-- content -->
-						<div class="row fuct-items">
-
-							<!-- fuct item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="fuct-item">
-									<div class="icon"><span class="ion ion-disc"></span></div>
-									<div class="name">80 Albumes Listened</div>
-								</div>
-							</div>
-
-							<!-- fuct item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="fuct-item">
-									<div class="icon"><span class="ion ion-trophy"></span></div>
-									<div class="name">15 Awards Won</div>
-								</div>
-							</div>
-
-							<!-- fuct item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="fuct-item">
-									<div class="icon"><span class="ion ion-coffee"></span></div>
-									<div class="name">1 000 Cups of coffee</div>
-								</div>
-							</div>
-
-							<!-- fuct item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="fuct-item">
-									<div class="icon"><span class="ion ion-flag"></span></div>
-									<div class="name">10 Countries Visited</div>
-								</div>
-							</div>
-
-							<div class="clear"></div>
-						</div>
-
-					</div>
 					<!--
 						Skills
 					-->
@@ -338,32 +301,46 @@
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
 								<div class="skills-list">
 									<div class="skill-title border-line-h">
-										<div class="icon"><i class="ion ion-easel"></i></div>
+										<div class="icon">
+											<ion-icon name="code" size="large" style="padding: 5px 0px 5px;"></ion-icon>
+										</div>
 										<div class="name">Languages</div>
 									</div>
 									<ul>
 										<li class="border-line-h">
-											<div class="name">Web Design</div>
+											<div class="name">Python</div>
+											<div class="progress">
+												<div class="percentage" style="width:75%;"></div>
+											</div>
+										</li>
+										<li class="border-line-h">
+											<div class="name">JavaScript</div>
 											<div class="progress">
 												<div class="percentage" style="width:90%;"></div>
 											</div>
 										</li>
 										<li class="border-line-h">
-											<div class="name">Write Music</div>
+											<div class="name">C++</div>
 											<div class="progress">
-												<div class="percentage" style="width:65%;"></div>
-											</div>
-										</li>
-										<li class="border-line-h">
-											<div class="name">Photoshop</div>
-											<div class="progress">
-												<div class="percentage" style="width:75%;"></div>
+												<div class="percentage" style="width:70%;"></div>
 											</div>
 										</li>
 										<li>
-											<div class="name">Graphic Design</div>
+											<div class="name">GoLang</div>
 											<div class="progress">
-												<div class="percentage" style="width:85%;"></div>
+												<div class="percentage" style="width:50%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">HTML5</div>
+											<div class="progress">
+												<div class="percentage" style="width:90%;"></div>
+											</div>
+										</li>
+										<li>
+											<div class="name">CSS3</div>
+											<div class="progress">
+												<div class="percentage" style="width:90%;"></div>
 											</div>
 										</li>
 									</ul>
@@ -371,33 +348,35 @@
 							</div>
 
 							<!-- skill item -->
-							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+							<div class="col col-d-6 col-t-6 col-m-12 service-item ">
 								<div class="skills-list">
 									<div class="skill-title border-line-h">
-										<div class="icon"><i class="ion ion-code"></i></div>
+										<div class="icon">
+											<ion-icon name="cube" size="large" style="padding: 5px 0px 5px;"></ion-icon>
+										</div>
 										<div class="name">Technology</div>
 									</div>
 									<ul>
 										<li class="border-line-h">
-											<div class="name">WordPress</div>
+											<div class="name">Reactjs</div>
 											<div class="progress">
 												<div class="percentage" style="width:85%;"></div>
 											</div>
 										</li>
 										<li class="border-line-h">
-											<div class="name">PHP / MYSQL</div>
+											<div class="name">Angularjs</div>
 											<div class="progress">
 												<div class="percentage" style="width:65%;"></div>
 											</div>
 										</li>
 										<li class="border-line-h">
-											<div class="name">Angular / JavaScript</div>
+											<div class="name"></div>
 											<div class="progress">
 												<div class="percentage" style="width:75%;"></div>
 											</div>
 										</li>
 										<li>
-											<div class="name">HTML / CSS</div>
+											<div class="name">HTML5 / CSS3</div>
 											<div class="progress">
 												<div class="percentage" style="width:90%;"></div>
 											</div>
@@ -411,60 +390,60 @@
 
 					</div>
 					<!--
-						Clients
+						Honors
 					-->
 					<div class="content clients">
 
 						<!-- title -->
-						<div class="title">Clients</div>
+						<div class="title">Honors</div>
 
 						<!-- content -->
-						<div class="row client-items">
-
-							<!-- client item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="client-item">
+						<div class="row client-items border-line-v">
+							<div class="col col-d-8 col-t-8 col-m-8 grid-item design border-line-h">
+								<div class="box-item">
 									<div class="image">
-										<a target="_blank" href="https://www.google.com">
-											<img src="images/clients/client_1.png" alt="" />
-										</a>
+										<div>
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</div>
+									</div>
+									<div class="desc">
+										<div class="name has-popup-media">Runner up in HackSC</div>
+										<div class="category">Hackathon - April 2019</div>
 									</div>
 								</div>
 							</div>
-
-							<!-- client item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="client-item">
+							<div class="col col-d-8 col-t-8 col-m-8 grid-item design border-line-h">
+								<div class="box-item">
 									<div class="image">
-										<a target="_blank" href="https://www.google.com">
-											<img src="images/clients/client_2.png" alt="" />
-										</a>
+										<div>
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</div>
+									</div>
+									<div class="desc">
+										<div href="https://viterbihackathon2019.devpost.com/submissions" class="name has-popup-media">Winner in Viterbi Hackathon</div>
+										<div class="category">Hackathon - May 2019</div>
 									</div>
 								</div>
 							</div>
-
-							<!-- client item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="client-item">
+							<div class="col col-d-8 col-t-8 col-m-8 grid-item design border-line-h">
+								<div class="box-item">
 									<div class="image">
-										<a target="_blank" href="https://www.google.com">
-											<img src="images/clients/client_3.png" alt="" />
-										</a>
+										<div>
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</div>
+									</div>
+									<div class="desc">
+										<div class="name has-popup-media">Top 15 Startup Ideas of India - Economic Times</div>
+										<div class="category">Hackathon - May 2016</div>
 									</div>
 								</div>
 							</div>
-
-							<!-- client item -->
-							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-								<div class="client-item">
-									<div class="image">
-										<a target="_blank" href="https://www.google.com">
-											<img src="images/clients/client_4.png" alt="" />
-										</a>
-									</div>
-								</div>
-							</div>
-
 							<div class="clear"></div>
 						</div>
 
@@ -642,11 +621,394 @@
 					<!--
 						Works
 					-->
-					<div class="content works">
+					<div class="content resume">
 
 						<!-- title -->
 						<div class="title">Projects</div>
 
+						<!-- content -->
+						<div class="row">
+
+							<!-- experience -->
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="resume-items">
+									<div class="resume-item border-line-h">
+										<div class="image">
+											<a href="#popup-1" class="has-popup-media">
+												<span class="info">
+													<span class="ion ion-images"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-1" class="name has-popup-media">Vote on chain</a>
+											<div class="category">Design</div>
+										</div>
+
+										<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="assets/profile_image.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Mobile Application</h1>
+														<div class="blog-detail">Design</div>
+														<div class="blog-content">
+															<p>
+																So striking at of to welcomed resolved. Northward by described up household therefore
+																attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															</p>
+															<p>
+																Forfeited you engrossed but gay sometimes explained. Another as studied it to evident.
+																Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining
+																determine few her two cordially admitting old.
+															</p>
+															<blockquote>
+																Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+																Curae; Pellentesque suscipit.
+															</blockquote>
+															<p>
+																Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh
+																removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on.
+																Increasing sufficient everything men him admiration unpleasing sex.
+															</p>
+															<ul class="list-style">
+																<li>Greatest properly off ham exercise all.</li>
+																<li>Unsatiable invitation its possession nor off.</li>
+																<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															</ul>
+															<p>
+																Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means
+																up civil do an offer wound of.
+															</p>
+														</div>
+														<a href="#" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="image">
+											<a href="#popup-1" class="has-popup-media">
+												<span class="info">
+													<span class="ion ion-images"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-1" class="name has-popup-media">Zeta score</a>
+											<div class="category">Design</div>
+										</div>
+
+										<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="assets/profile_image.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Zeta Score</h1>
+														<div class="blog-detail">Design</div>
+														<div class="blog-content">
+															<p>
+																So striking at of to welcomed resolved. Northward by described up household therefore
+																attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															</p>
+															<p>
+																Forfeited you engrossed but gay sometimes explained. Another as studied it to evident.
+																Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining
+																determine few her two cordially admitting old.
+															</p>
+															<blockquote>
+																Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+																Curae; Pellentesque suscipit.
+															</blockquote>
+															<p>
+																Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh
+																removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on.
+																Increasing sufficient everything men him admiration unpleasing sex.
+															</p>
+															<ul class="list-style">
+																<li>Greatest properly off ham exercise all.</li>
+																<li>Unsatiable invitation its possession nor off.</li>
+																<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															</ul>
+															<p>
+																Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means
+																up civil do an offer wound of.
+															</p>
+														</div>
+														<a href="#" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="image">
+											<a href="#popup-1" class="has-popup-media">
+												<span class="info">
+													<span class="ion ion-images"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-1" class="name has-popup-media">Artis</a>
+											<div class="category">Design</div>
+										</div>
+
+										<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="assets/profile_image.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Zeta Score</h1>
+														<div class="blog-detail">Design</div>
+														<div class="blog-content">
+															<p>
+																So striking at of to welcomed resolved. Northward by described up household therefore
+																attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															</p>
+															<p>
+																Forfeited you engrossed but gay sometimes explained. Another as studied it to evident.
+																Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining
+																determine few her two cordially admitting old.
+															</p>
+															<blockquote>
+																Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+																Curae; Pellentesque suscipit.
+															</blockquote>
+															<p>
+																Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh
+																removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on.
+																Increasing sufficient everything men him admiration unpleasing sex.
+															</p>
+															<ul class="list-style">
+																<li>Greatest properly off ham exercise all.</li>
+																<li>Unsatiable invitation its possession nor off.</li>
+																<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															</ul>
+															<p>
+																Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means
+																up civil do an offer wound of.
+															</p>
+														</div>
+														<a href="#" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="image">
+											<a href="#popup-1" class="has-popup-media">
+												<span class="info">
+													<span class="ion ion-images"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-1" class="name has-popup-media">Project</a>
+											<div class="category">Design</div>
+										</div>
+
+										<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="assets/profile_image.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Mobile Application</h1>
+														<div class="blog-detail">Design</div>
+														<div class="blog-content">
+															<p>
+																So striking at of to welcomed resolved. Northward by described up household therefore
+																attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															</p>
+															<p>
+																Forfeited you engrossed but gay sometimes explained. Another as studied it to evident.
+																Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining
+																determine few her two cordially admitting old.
+															</p>
+															<blockquote>
+																Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+																Curae; Pellentesque suscipit.
+															</blockquote>
+															<p>
+																Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh
+																removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on.
+																Increasing sufficient everything men him admiration unpleasing sex.
+															</p>
+															<ul class="list-style">
+																<li>Greatest properly off ham exercise all.</li>
+																<li>Unsatiable invitation its possession nor off.</li>
+																<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															</ul>
+															<p>
+																Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means
+																up civil do an offer wound of.
+															</p>
+														</div>
+														<a href="#" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="resume-item">
+										<!-- <div class="date">February 2016 - February 2017</div> -->
+										<div class="name">Technology Lead</div>
+										<div class="company">ClayPlay</div>
+										<p>
+											Designed architecture for back-end and front-end to handle different aspects of an international holiday.
+										</p>
+									</div>
+									<div class="resume-item">
+										<!-- <div class="date">June 2015 - August 2014</div> -->
+										<div class="name">Software Developer Intern</div>
+										<div class="company">Tech Mahindra</div>
+										<p>
+											Studied and managed a group project Flood Control Management system; Managed database for project in MYSQL.
+										</p>
+									</div>
+									<div class="resume-item">
+										<!-- <div class="date">May 2014 - July 2014</div> -->
+										<div class="name">Software Developer Intern</div>
+										<div class="company">Condot Technologies</div>
+										<p>
+											Application of the german software INKDOT Draw.
+											Creation and designing the products in INKDOT Draw as per customer requirements..
+										</p>
+									</div>
+									<div class="resume-item">
+										<!-- <div class="date">June 2013</div> -->
+										<div class="name">Management Intern</div>
+										<div class="company">Ford</div>
+										<p>
+											Managing and promoting the sales of Ford Ecosport.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!--
+				Card - Contacts
+			-->
+			<div class="card-inner contacts" id="contacts-card">
+				<div class="card-wrap">
+
+					<!--
+						Conacts Info
+					-->
+					<div class="content contacts">
+
+						<!-- title -->
+						<div class="title">Get in Touch</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="info-list">
+									<ul>
+										<li><strong>Email : </strong> vipulsin@usc.edu</li>
+										<li><strong>Phone : </strong> +1-213-(448)0661</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+			<!--
+				Card - Random
+			-->
+			<div class="card-inner" id="random-card">
+				<div class="card-wrap">
+
+					<!--
+						Works
+					-->
+					<div class="content works">
+
+						<!-- title -->
+						<div class="title">Random</div>
+						<!--
+							Fun Fact
+						-->
+						<div class="content fuct">
+
+							<!-- title -->
+							<div class="title">Fun Fact</div>
+
+							<!-- content -->
+							<div class="row fuct-items">
+
+								<!-- fuct item -->
+								<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+									<div class="fuct-item">
+										<div class="icon"><span class="ion ion-disc"></span></div>
+										<div class="name">80 Albumes Listened</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+									<div class="fuct-item">
+										<div class="icon"><span class="ion ion-trophy"></span></div>
+										<div class="name">15 Awards Won</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+									<div class="fuct-item">
+										<div class="icon"><span class="ion ion-coffee"></span></div>
+										<div class="name">1 000 Cups of coffee</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+									<div class="fuct-item">
+										<div class="icon"><span class="ion ion-flag"></span></div>
+										<div class="name">10 Countries Visited</div>
+									</div>
+								</div>
+
+								<div class="clear"></div>
+							</div>
+
+						</div>
 						<!-- filters -->
 						<div class="filter-menu filter-button-group">
 							<div class="f_btn active">
@@ -656,13 +1018,10 @@
 								<label><input type="radio" name="fl_radio" value="photo" />Photo</label>
 							</div>
 							<div class="f_btn">
-								<label><input type="radio" name="fl_radio" value="video" />Video</label>
+								<label><input type="radio" name="fl_radio" value="music" />Blog</label>
 							</div>
 							<div class="f_btn">
-								<label><input type="radio" name="fl_radio" value="music" />Music</label>
-							</div>
-							<div class="f_btn">
-								<label><input type="radio" name="fl_radio" value="design" />Design</label>
+								<label><input type="radio" name="fl_radio" value="design" />Video</label>
 							</div>
 						</div>
 
@@ -912,121 +1271,6 @@
 
 				</div>
 			</div>
-
-			<!--
-				Card - Blog
-			-->
-			<div class="card-inner blog" id="blog-card">
-				<div class="card-wrap">
-
-					<!--
-						Blog
-					-->
-					<div class="content blog">
-
-						<!-- title -->
-						<div class="title">Latest Posts</div>
-
-						<!-- content -->
-						<div class="row border-line-v">
-
-							<!-- blog item -->
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
-								<div class="box-item">
-									<div class="image">
-										<a href="blog-post.html">
-											<img src="images/blog/blog1.jpg" alt="" />
-											<span class="info">
-												<span class="ion ion-document-text"></span>
-											</span>
-											<span class="date"><strong>20</strong>Jun</span>
-										</a>
-									</div>
-									<div class="desc">
-										<a href="blog-post.html" class="name">By spite about do of do allow blush</a>
-										<div class="category">Design</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- blog item -->
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
-								<div class="box-item">
-									<div class="image">
-										<a href="blog-post.html">
-											<img src="images/blog/blog2.jpg" alt="" />
-											<span class="info">
-												<span class="ion ion-document-text"></span>
-											</span>
-											<span class="date"><strong>19</strong>Jun</span>
-										</a>
-									</div>
-									<div class="desc">
-										<a href="blog-post.html" class="name">Two Before Arrow Not Relied</a>
-										<div class="category">Coding</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- blog item -->
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
-								<div class="box-item">
-									<div class="image">
-										<a href="blog-post.html">
-											<img src="images/blog/blog3.jpg" alt="" />
-											<span class="info">
-												<span class="ion ion-document-text"></span>
-											</span>
-											<span class="date"><strong>20</strong>Jun</span>
-										</a>
-									</div>
-									<div class="desc">
-										<a href="blog-post.html" class="name">By spite about do of do allow blush</a>
-										<div class="category">Travel</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="clear"></div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-
-			<!--
-				Card - Contacts
-			-->
-			<div class="card-inner contacts" id="contacts-card">
-				<div class="card-wrap">
-
-					<!--
-						Conacts Info
-					-->
-					<div class="content contacts">
-
-						<!-- title -->
-						<div class="title">Get in Touch</div>
-
-						<!-- content -->
-						<div class="row">
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-								<div class="info-list">
-									<ul>
-										<li><strong>Email : </strong> vipulsin@usc.edu</li>
-										<li><strong>Phone : </strong> +1-213-(448)0661</li>
-									</ul>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-
 		</div>
 	</div>
 
@@ -1034,6 +1278,7 @@
 		jQuery Scripts
 	-->
 	<script src="js/scripts.min.js"></script>
-
+	<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>

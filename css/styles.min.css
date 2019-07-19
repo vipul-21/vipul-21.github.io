@@ -35,12 +35,11 @@ body {
 }
 
 .container {
-    margin: -300px 0 0 -318px;
+    margin: 0 0 0 -400px;
     position: absolute;
-    top: 50%;
     left: 50%;
     width: 480px;
-    height: 600px;
+    height: 100%;
     transform: translateX(0);
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -414,6 +413,12 @@ strong {
     background: -moz-radial-gradient(left,ellipse cover,rgba(197,202,213,.7) 0,rgba(255,255,255,0) 70%);
     background: -webkit-radial-gradient(left,ellipse cover,rgba(197,202,213,.7) 0,rgba(255,255,255,0) 70%);
     background: radial-gradient(ellipse at left,rgba(197,202,213,.7) 0,rgba(255,255,255,0) 70%)
+}
+
+.lnk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button,.lnk {
@@ -977,7 +982,12 @@ input.error::-webkit-input-placeholder,textarea.error::-webkit-input-placeholder
     height: 72px;
     color: #171717;
     text-align: center;
-    background: #fff
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
 }
 
 .header .top-menu ul li a:before {
@@ -1104,12 +1114,16 @@ input.error::-webkit-input-placeholder,textarea.error::-webkit-input-placeholder
     .header .top-menu {
         max-width: 100%
     }
+
+    .hide-mobile {
+      display: none;
+    }
 }
 
 .card-started {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 100%;
     z-index: 11;
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1325,9 +1339,9 @@ input.error::-webkit-input-placeholder,textarea.error::-webkit-input-placeholder
     position: absolute;
     overflow: hidden;
     left: 95%;
-    top: 15px;
-    width: 120%;
-    height: 570px;
+    top: 10px;
+    width: 180%;
+    height: 97%;
     background: #fff;
     transform-origin: center left;
     opacity: 0;
@@ -1500,7 +1514,7 @@ input.error::-webkit-input-placeholder,textarea.error::-webkit-input-placeholder
     font-size: 0
 }
 
-.service-items.border-line-v:after {
+/* .service-items.border-line-v:after {
     margin: 0 0 0 -1px;
     content: '';
     position: absolute;
@@ -1511,7 +1525,7 @@ input.error::-webkit-input-placeholder,textarea.error::-webkit-input-placeholder
     background: -moz-radial-gradient(top,ellipse cover,rgba(197,202,213,.7) 0,rgba(255,255,255,0) 70%);
     background: -webkit-radial-gradient(top,ellipse cover,rgba(197,202,213,.7) 0,rgba(255,255,255,0) 70%);
     background: radial-gradient(ellipse at top,rgba(197,202,213,.7) 0,rgba(255,255,255,0) 70%)
-}
+} */
 
 .service-items .service-item {
     text-align: left
