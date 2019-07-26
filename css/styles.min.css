@@ -2544,6 +2544,33 @@ input.error::-webkit-input-placeholder,textarea.error::-webkit-input-placeholder
     -khtml-border-radius: 4px
 }
 
+.desc ul.list-style {
+    list-style: none
+}
+
+.desc ul.list-style li {
+    padding: 0 0 0 20px;
+    position: relative;
+    font-size: 14px;
+    color: #171717;
+    font-weight: 400
+}
+
+.desc ul.list-style li:before {
+    margin: -2px 0 0 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 4px;
+    height: 4px;
+    background: #78cc6d;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px
+}
+
 .post-box .blog-content .post-lightbox {
     margin: 25px 0
 }
