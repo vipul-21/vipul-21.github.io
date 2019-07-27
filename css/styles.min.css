@@ -2561,7 +2561,7 @@ input.error::-webkit-input-placeholder,textarea.error::-webkit-input-placeholder
     content: '';
     position: absolute;
     left: 0;
-    top: 20%;
+    top: 50%;
     width: 4px;
     height: 4px;
     background: #78cc6d;
